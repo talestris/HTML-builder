@@ -22,7 +22,7 @@ fs.open(filePath, 'w', (err, fd) => {
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
-  prompt: 'Enter your text: ',
+  prompt: 'Enter your text (or type "exit" to quit): ',
 });
 
 rl.prompt();
